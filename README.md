@@ -39,8 +39,8 @@ Built with **Next.js**, **React**, **TypeScript**, **Appwrite**, and **Sentry**,
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/careplus.git
-cd careplus
+git clone https://github.com/yourusername/HealthCare.git
+cd HealthCare
 npm install
 ```
 
