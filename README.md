@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# CarePlus
+
+**Smarter Healthcare, Simplified**
+
+CarePlus is a modern healthcare appointment management platform that allows patients to connect seamlessly with doctors. Patients can easily search for doctors, book appointments, and receive real-time notifications about their appointment status. Doctors can efficiently manage, approve, or cancel appointments through a user-friendly interface.
+
+Built with **Next.js**, **React**, **TypeScript**, **Appwrite**, and **Sentry**, CarePlus provides a fast, reliable, and secure experience for both patients and healthcare providers.
+
+---
+
+## Features
+
+✅ Patients can book appointments with doctors
+✅ Doctors can manage, approve, or cancel appointments
+✅ Automatic notifications for approved or canceled appointments
+✅ User-friendly and responsive interface
+✅ Secure and scalable architecture
+
+---
+
+## Tech Stack
+
+* **Next.js** — for server-side rendering and routing
+* **React** — for building reusable and interactive UI components
+* **TypeScript** — for type safety and maintainable code
+* **Appwrite** — for backend-as-a-service (authentication, database, functions, etc.)
+* **Sentry** — for error tracking and monitoring
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+* Node.js >= 16
+* npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/careplus.git
+cd careplus
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and configure the following variables:
+
+```env
+NEXT_PUBLIC_APPWRITE_ENDPOINT=your_appwrite_endpoint
+NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
+NEXT_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id
+NEXT_PUBLIC_SENTRY_DSN=your_sentry_dsn
+```
+
+Replace the placeholders with your actual Appwrite and Sentry configuration.
+
+---
+
+## Running the App
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
+Contributions are welcome! Please fork the repository and submit a pull request.
+For major changes, please open an issue first to discuss what you would like to change.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[MIT](LICENSE)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you have questions or feature requests, feel free to open an issue or reach out.
